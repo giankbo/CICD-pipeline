@@ -4,3 +4,8 @@ describe("My hello", () => {
     expect(hello.hello()).toEqual("Hello World");
   });
 });
+describe("My hi", () => {
+  test("works", () => {
+    expect(hi.hi()).toEqual("Hi World");
+  });
+});
