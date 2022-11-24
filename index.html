@@ -1,5 +1,6 @@
 <html>
   <script src="./hello.js"></script>
+  <script src="./hi.js"></script>
   <script>
     var setColor = function () {
       var col = ["red", "green", "blue"];
@@ -7,6 +8,7 @@
       var s = `<body bgcolor=  ${col[num]} >`;
       document.write(s);
       document.write(`<h1> ${hello()} </h1>`);
+      document.write(`<h1> ${hi()} </h1>`);
     };
     window.onload = setColor;
   </script>
